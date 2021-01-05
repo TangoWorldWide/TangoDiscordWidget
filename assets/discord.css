@@ -1,0 +1,71 @@
+.discord-header {
+	height: 130px;
+	width: 160px;
+	background: #7289da;
+	border-radius: 7px;
+	overflow: hidden;
+}
+
+.discord-logo {
+	height: 50%;
+	text-align: center;
+}
+
+.discord-logo img {
+	height: 100%;
+	max-height: 100%;
+	max-width: 90%;
+	overflow: hidden;
+}
+
+.discord-members {
+	font-weight: 650;
+	font-style: bold;
+	font-size: 14px;
+}
+
+.discord-count {
+	height: 30%;
+	display: inline;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+}
+
+.discord-count p {
+	margin: 0;
+	margin-top: -5px;
+	padding-top: -50px;
+	padding-bottom: 10px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.discord-connect {
+	height: 20%;
+	background: #202225;
+	height: 200px;
+	text-align: center;
+}
+
+.join-button {
+	padding-top: 7px;
+}
+
+.discord-connect button {
+	transition-duration: 0.4s;
+	background-color: #37393b;
+	border-radius: 7px;
+	border: none;
+	color: white;
+	padding: 8px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	text-align: middle;
+}
+
+.discord-connect button:hover {
+	background-color: #2c2f33;
+	cursor: pointer; 
+}
